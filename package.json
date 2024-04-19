@@ -1,6 +1,6 @@
 {
   "name": "@javalent/components",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Commonly used Svelte components for the Javalent plugin ecosystem.",
   "main": "dist/index.js",
   "author": {
