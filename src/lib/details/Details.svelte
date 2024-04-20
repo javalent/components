@@ -16,13 +16,13 @@
 </script>
 
 <details
-    class="creator calendarium-nested-settings setting-item"
+    class="nested-settings setting-item"
     class:always-open={alwaysOpen}
     bind:open
     use:details
 >
     <summary
-        class="calendarium-nested-summary"
+        class="nested-summary"
         on:keyup={(evt) => evt.preventDefault()}
     >
         <div class="setting-item setting-item-heading">
@@ -43,7 +43,7 @@
         </div>
     </summary>
 
-    <div class="creator-settings-container">
+    <div class="settings-container">
         <slot />
     </div>
 </details>
@@ -52,13 +52,13 @@
     .always-open {
         pointer-events: none;
     }
-    .creator-settings-container {
+    .settings-container {
         pointer-events: initial;
     }
-    .calendarium-nested-settings {
+    .nested-settings {
         position: relative;
     }
-    .calendarium-nested-summary {
+    .nested-summary {
         outline: none;
         list-style: none !important;
         list-style-type: none !important;
@@ -66,7 +66,7 @@
         border-top-left-radius: 0.1rem;
         border-top-right-radius: 0.1rem;
         cursor: pointer;
-        background-color: var(--creator-background-color);
+        background-color: var(--background-color);
         margin-right: 0;
         display: flex;
         justify-content: space-between;
@@ -101,11 +101,11 @@
         transform: rotate(90deg);
     }
 
-    .creator-settings-container {
+    .settings-container {
         padding: 0.75em var(--size-4-3);
     }
 
-    .calendarium-nested-settings {
+    .nested-settings {
         border-top: 0px;
     }
 </style>
