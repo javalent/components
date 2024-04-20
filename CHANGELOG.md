@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/javalent/components/compare/v1.0.1...v1.0.2) (2024-04-20)
+
+
+### Bug Fixes
+
+* Remove references to Calendarium ([aea36c6](https://github.com/javalent/components/commit/aea36c6c259a86794d0336f50984dce3e723a647))
+
 ## [1.0.1](https://github.com/javalent/components/compare/v1.0.0...v1.0.1) (2024-04-19)
 
 
